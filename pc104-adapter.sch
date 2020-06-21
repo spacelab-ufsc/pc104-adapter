@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "PC-104 to PicoBlade Adapter (Bottom)"
+Date "2020-06-21"
+Rev "v1.0"
+Comp "SpaceLab"
+Comment1 "Author: Gabriel Mariano Marcelino"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -451,8 +451,6 @@ Wire Wire Line
 	10050 1600 9850 1600
 Wire Wire Line
 	9850 1500 10050 1500
-Text Notes 8150 7650 0    50   ~ 0
-2020/06/20
 $Comp
 L Connector:Conn_01x13_Male J1
 U 1 1 5F0948D2
