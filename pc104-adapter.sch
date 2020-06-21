@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TSW-126-07-X-D:SAMTEC-TSW-126-07-X-D J?
+L TSW-126-07-X-D:SAMTEC-TSW-126-07-X-D J9
 U 1 1 5EED858F
 P 6100 1500
-F 0 "J?" H 6952 1867 50  0000 C CNN
+F 0 "J9" H 6952 1867 50  0000 C CNN
 F 1 "SAMTEC-TSW-126-07-X-D" H 6952 1776 50  0000 C CNN
-F 2 "SAMTEC-TSW-126-07-X-D" H 6100 1500 50  0001 L BNN
+F 2 "lib:TSW-126-07-X-D" H 6100 1500 50  0001 L BNN
 F 3 "" H 6100 1500 50  0001 C CNN
 	1    6100 1500
 	1    0    0    -1  
@@ -27,12 +27,12 @@ $EndComp
 Text Label 5700 1500 2    50   ~ 0
 A1
 $Comp
-L TSW-126-07-X-D:SAMTEC-TSW-126-07-X-D J?
+L TSW-126-07-X-D:SAMTEC-TSW-126-07-X-D J10
 U 1 1 5EEE9E33
 P 8850 1500
-F 0 "J?" H 9702 1867 50  0000 C CNN
+F 0 "J10" H 9702 1867 50  0000 C CNN
 F 1 "SAMTEC-TSW-126-07-X-D" H 9702 1776 50  0000 C CNN
-F 2 "SAMTEC-TSW-126-07-X-D" H 8850 1500 50  0001 L BNN
+F 2 "lib:TSW-126-07-X-D" H 8850 1500 50  0001 L BNN
 F 3 "" H 8850 1500 50  0001 C CNN
 	1    8850 1500
 	1    0    0    -1  
@@ -454,89 +454,89 @@ Wire Wire Line
 Text Notes 8150 7650 0    50   ~ 0
 2020/06/20
 $Comp
-L Connector:Conn_01x13_Male J?
+L Connector:Conn_01x13_Male J1
 U 1 1 5F0948D2
 P 1800 1950
-F 0 "J?" H 1908 2731 50  0000 C CNN
+F 0 "J1" H 1908 2731 50  0000 C CNN
 F 1 "Conn_01x13_Male" H 1908 2640 50  0000 C CNN
-F 2 "" H 1800 1950 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical" H 1800 1950 50  0001 C CNN
 F 3 "~" H 1800 1950 50  0001 C CNN
 	1    1800 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x13_Male J?
+L Connector:Conn_01x13_Male J5
 U 1 1 5F09BB7A
 P 3650 1950
-F 0 "J?" H 3758 2731 50  0000 C CNN
+F 0 "J5" H 3758 2731 50  0000 C CNN
 F 1 "Conn_01x13_Male" H 3758 2640 50  0000 C CNN
-F 2 "" H 3650 1950 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical" H 3650 1950 50  0001 C CNN
 F 3 "~" H 3650 1950 50  0001 C CNN
 	1    3650 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x13_Male J?
+L Connector:Conn_01x13_Male J2
 U 1 1 5F0A2CCD
 P 1800 3450
-F 0 "J?" H 1908 4231 50  0000 C CNN
+F 0 "J2" H 1908 4231 50  0000 C CNN
 F 1 "Conn_01x13_Male" H 1908 4140 50  0000 C CNN
-F 2 "" H 1800 3450 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical" H 1800 3450 50  0001 C CNN
 F 3 "~" H 1800 3450 50  0001 C CNN
 	1    1800 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x13_Male J?
+L Connector:Conn_01x13_Male J6
 U 1 1 5F0A8E5D
 P 3650 3450
-F 0 "J?" H 3758 4231 50  0000 C CNN
+F 0 "J6" H 3758 4231 50  0000 C CNN
 F 1 "Conn_01x13_Male" H 3758 4140 50  0000 C CNN
-F 2 "" H 3650 3450 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical" H 3650 3450 50  0001 C CNN
 F 3 "~" H 3650 3450 50  0001 C CNN
 	1    3650 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x13_Male J?
+L Connector:Conn_01x13_Male J3
 U 1 1 5F0EA368
 P 1800 4950
-F 0 "J?" H 1908 5731 50  0000 C CNN
+F 0 "J3" H 1908 5731 50  0000 C CNN
 F 1 "Conn_01x13_Male" H 1908 5640 50  0000 C CNN
-F 2 "" H 1800 4950 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical" H 1800 4950 50  0001 C CNN
 F 3 "~" H 1800 4950 50  0001 C CNN
 	1    1800 4950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x13_Male J?
+L Connector:Conn_01x13_Male J7
 U 1 1 5F0EA36E
 P 3650 4950
-F 0 "J?" H 3758 5731 50  0000 C CNN
+F 0 "J7" H 3758 5731 50  0000 C CNN
 F 1 "Conn_01x13_Male" H 3758 5640 50  0000 C CNN
-F 2 "" H 3650 4950 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical" H 3650 4950 50  0001 C CNN
 F 3 "~" H 3650 4950 50  0001 C CNN
 	1    3650 4950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x13_Male J?
+L Connector:Conn_01x13_Male J4
 U 1 1 5F0EA374
 P 1800 6450
-F 0 "J?" H 1908 7231 50  0000 C CNN
+F 0 "J4" H 1908 7231 50  0000 C CNN
 F 1 "Conn_01x13_Male" H 1908 7140 50  0000 C CNN
-F 2 "" H 1800 6450 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical" H 1800 6450 50  0001 C CNN
 F 3 "~" H 1800 6450 50  0001 C CNN
 	1    1800 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x13_Male J?
+L Connector:Conn_01x13_Male J8
 U 1 1 5F0EA37A
 P 3650 6450
-F 0 "J?" H 3758 7231 50  0000 C CNN
+F 0 "J8" H 3758 7231 50  0000 C CNN
 F 1 "Conn_01x13_Male" H 3758 7140 50  0000 C CNN
-F 2 "" H 3650 6450 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical" H 3650 6450 50  0001 C CNN
 F 3 "~" H 3650 6450 50  0001 C CNN
 	1    3650 6450
 	1    0    0    -1  
@@ -958,32 +958,32 @@ Wire Wire Line
 Wire Wire Line
 	3850 7050 4050 7050
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H1
 U 1 1 5F59E490
 P 7450 5250
-F 0 "H?" H 7550 5299 50  0000 L CNN
+F 0 "H1" H 7550 5299 50  0000 L CNN
 F 1 "MountingHole_Pad" H 7550 5208 50  0000 L CNN
-F 2 "" H 7450 5250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 7450 5250 50  0001 C CNN
 F 3 "~" H 7450 5250 50  0001 C CNN
 	1    7450 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H2
 U 1 1 5F5A173F
 P 8450 5250
-F 0 "H?" H 8550 5299 50  0000 L CNN
+F 0 "H2" H 8550 5299 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8550 5208 50  0000 L CNN
-F 2 "" H 8450 5250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 8450 5250 50  0001 C CNN
 F 3 "~" H 8450 5250 50  0001 C CNN
 	1    8450 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01
 U 1 1 5F5D55CB
 P 7450 5450
-F 0 "#PWR?" H 7450 5200 50  0001 C CNN
+F 0 "#PWR01" H 7450 5200 50  0001 C CNN
 F 1 "GND" H 7455 5277 50  0000 C CNN
 F 2 "" H 7450 5450 50  0001 C CNN
 F 3 "" H 7450 5450 50  0001 C CNN
@@ -991,10 +991,10 @@ F 3 "" H 7450 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 5F5D6345
 P 8450 5450
-F 0 "#PWR?" H 8450 5200 50  0001 C CNN
+F 0 "#PWR02" H 8450 5200 50  0001 C CNN
 F 1 "GND" H 8455 5277 50  0000 C CNN
 F 2 "" H 8450 5450 50  0001 C CNN
 F 3 "" H 8450 5450 50  0001 C CNN
