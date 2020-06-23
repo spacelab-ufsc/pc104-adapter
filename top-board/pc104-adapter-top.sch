@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L TSW-126-07-X-D:SAMTEC-TSW-126-07-X-D J9
-U 1 1 5EED858F
-P 6100 1500
-F 0 "J9" H 6952 1867 50  0000 C CNN
-F 1 "SAMTEC-TSW-126-07-X-D" H 6952 1776 50  0000 C CNN
-F 2 "lib:TSW-126-07-X-D" H 6100 1500 50  0001 L BNN
-F 3 "" H 6100 1500 50  0001 C CNN
-	1    6100 1500
-	1    0    0    -1  
-$EndComp
 Text Label 5700 1500 2    50   ~ 0
 A1
 $Comp
@@ -31,7 +20,7 @@ L TSW-126-07-X-D:SAMTEC-TSW-126-07-X-D J10
 U 1 1 5EEE9E33
 P 8850 1500
 F 0 "J10" H 9702 1867 50  0000 C CNN
-F 1 "SAMTEC-TSW-126-07-X-D" H 9702 1776 50  0000 C CNN
+F 1 "SAMTEC-SSW-126-01-G-D" H 9702 1776 50  0000 C CNN
 F 2 "lib:TSW-126-07-X-D" H 8850 1500 50  0001 L BNN
 F 3 "" H 8850 1500 50  0001 C CNN
 	1    8850 1500
@@ -539,266 +528,314 @@ F 3 "~" H 3650 6450 50  0001 C CNN
 	1    3650 6450
 	1    0    0    -1  
 $EndComp
-Text Label 2200 1350 0    50   ~ 0
+Text Label 2200 2550 0    50   ~ 0
 A1
-Text Label 2200 1450 0    50   ~ 0
+Text Label 2200 2450 0    50   ~ 0
 A2
-Text Label 2200 1550 0    50   ~ 0
+Text Label 2200 2350 0    50   ~ 0
 A3
-Text Label 2200 1650 0    50   ~ 0
+Text Label 2200 2250 0    50   ~ 0
 A4
-Text Label 2200 1750 0    50   ~ 0
+Text Label 2200 2150 0    50   ~ 0
 A5
-Text Label 2200 1850 0    50   ~ 0
+Text Label 2200 2050 0    50   ~ 0
 A6
 Text Label 2200 1950 0    50   ~ 0
 A7
-Text Label 2200 2050 0    50   ~ 0
+Text Label 2200 1850 0    50   ~ 0
 A8
-Text Label 2200 2150 0    50   ~ 0
+Text Label 2200 1750 0    50   ~ 0
 A9
-Text Label 2200 2250 0    50   ~ 0
+Text Label 2200 1650 0    50   ~ 0
 A10
-Text Label 2200 2350 0    50   ~ 0
+Text Label 2200 1550 0    50   ~ 0
 A11
-Text Label 2200 2450 0    50   ~ 0
+Text Label 2200 1450 0    50   ~ 0
 A12
-Text Label 2200 2550 0    50   ~ 0
+Text Label 2200 1350 0    50   ~ 0
 A13
-Text Label 2200 2850 0    50   ~ 0
+Text Label 2200 4050 0    50   ~ 0
 A14
-Text Label 2200 2950 0    50   ~ 0
+Text Label 2200 3950 0    50   ~ 0
 A15
-Text Label 2200 3050 0    50   ~ 0
+Text Label 2200 3850 0    50   ~ 0
 A16
-Text Label 2200 3150 0    50   ~ 0
+Text Label 2200 3750 0    50   ~ 0
 A17
-Text Label 2200 3250 0    50   ~ 0
+Text Label 2200 3650 0    50   ~ 0
 A18
-Text Label 2200 3350 0    50   ~ 0
+Text Label 2200 3550 0    50   ~ 0
 A19
 Text Label 2200 3450 0    50   ~ 0
 A20
-Text Label 2200 3550 0    50   ~ 0
+Text Label 2200 3350 0    50   ~ 0
 A21
-Text Label 2200 3650 0    50   ~ 0
+Text Label 2200 3250 0    50   ~ 0
 A22
-Text Label 2200 3750 0    50   ~ 0
+Text Label 2200 3150 0    50   ~ 0
 A23
-Text Label 2200 3850 0    50   ~ 0
+Text Label 2200 3050 0    50   ~ 0
 A24
-Text Label 2200 3950 0    50   ~ 0
+Text Label 2200 2950 0    50   ~ 0
 A25
-Text Label 2200 4050 0    50   ~ 0
+Text Label 2200 2850 0    50   ~ 0
 A26
-Text Label 4050 1350 0    50   ~ 0
+Text Label 4050 2550 0    50   ~ 0
 B1
-Text Label 4050 1450 0    50   ~ 0
+Text Label 4050 2450 0    50   ~ 0
 B2
-Text Label 4050 1550 0    50   ~ 0
+Text Label 4050 2350 0    50   ~ 0
 B3
-Text Label 4050 1650 0    50   ~ 0
+Text Label 4050 2250 0    50   ~ 0
 B4
-Text Label 4050 1750 0    50   ~ 0
+Text Label 4050 2150 0    50   ~ 0
 B5
-Text Label 4050 1850 0    50   ~ 0
+Text Label 4050 2050 0    50   ~ 0
 B6
 Text Label 4050 1950 0    50   ~ 0
 B7
-Text Label 4050 2050 0    50   ~ 0
+Text Label 4050 1850 0    50   ~ 0
 B8
-Text Label 4050 2150 0    50   ~ 0
+Text Label 4050 1750 0    50   ~ 0
 B9
-Text Label 4050 2250 0    50   ~ 0
+Text Label 4050 1650 0    50   ~ 0
 B10
-Text Label 4050 2350 0    50   ~ 0
+Text Label 4050 1550 0    50   ~ 0
 B11
-Text Label 4050 2450 0    50   ~ 0
+Text Label 4050 1450 0    50   ~ 0
 B12
-Text Label 4050 2550 0    50   ~ 0
+Text Label 4050 1350 0    50   ~ 0
 B13
-Text Label 4050 2850 0    50   ~ 0
+Text Label 4050 4050 0    50   ~ 0
 B14
-Text Label 4050 2950 0    50   ~ 0
+Text Label 4050 3950 0    50   ~ 0
 B15
-Text Label 4050 3050 0    50   ~ 0
+Text Label 4050 3850 0    50   ~ 0
 B16
-Text Label 4050 3150 0    50   ~ 0
+Text Label 4050 3750 0    50   ~ 0
 B17
-Text Label 4050 3250 0    50   ~ 0
+Text Label 4050 3650 0    50   ~ 0
 B18
-Text Label 4050 3350 0    50   ~ 0
+Text Label 4050 3550 0    50   ~ 0
 B19
 Text Label 4050 3450 0    50   ~ 0
 B20
-Text Label 4050 3550 0    50   ~ 0
+Text Label 4050 3350 0    50   ~ 0
 B21
-Text Label 4050 3650 0    50   ~ 0
+Text Label 4050 3250 0    50   ~ 0
 B22
-Text Label 4050 3750 0    50   ~ 0
+Text Label 4050 3150 0    50   ~ 0
 B23
-Text Label 4050 3850 0    50   ~ 0
+Text Label 4050 3050 0    50   ~ 0
 B24
-Text Label 4050 3950 0    50   ~ 0
+Text Label 4050 2950 0    50   ~ 0
 B25
-Text Label 4050 4050 0    50   ~ 0
+Text Label 4050 2850 0    50   ~ 0
 B26
-Text Label 2200 4350 0    50   ~ 0
+Text Label 2200 5550 0    50   ~ 0
 A27
-Text Label 2200 4450 0    50   ~ 0
+Text Label 2200 5450 0    50   ~ 0
 A28
-Text Label 2200 4550 0    50   ~ 0
+Text Label 2200 5350 0    50   ~ 0
 A29
-Text Label 2200 4650 0    50   ~ 0
+Text Label 2200 5250 0    50   ~ 0
 A30
-Text Label 2200 4750 0    50   ~ 0
+Text Label 2200 5150 0    50   ~ 0
 A31
-Text Label 2200 4850 0    50   ~ 0
+Text Label 2200 5050 0    50   ~ 0
 A32
 Text Label 2200 4950 0    50   ~ 0
 A33
-Text Label 2200 5050 0    50   ~ 0
+Text Label 2200 4850 0    50   ~ 0
 A34
-Text Label 2200 5150 0    50   ~ 0
+Text Label 2200 4750 0    50   ~ 0
 A35
-Text Label 2200 5250 0    50   ~ 0
+Text Label 2200 4650 0    50   ~ 0
 A36
-Text Label 2200 5350 0    50   ~ 0
+Text Label 2200 4550 0    50   ~ 0
 A37
-Text Label 2200 5450 0    50   ~ 0
+Text Label 2200 4450 0    50   ~ 0
 A38
-Text Label 2200 5550 0    50   ~ 0
+Text Label 2200 4350 0    50   ~ 0
 A39
-Text Label 4050 4350 0    50   ~ 0
+Text Label 4050 5550 0    50   ~ 0
 B27
-Text Label 4050 4450 0    50   ~ 0
+Text Label 4050 5450 0    50   ~ 0
 B28
-Text Label 4050 4550 0    50   ~ 0
+Text Label 4050 5350 0    50   ~ 0
 B29
-Text Label 4050 4650 0    50   ~ 0
+Text Label 4050 5250 0    50   ~ 0
 B30
-Text Label 4050 4750 0    50   ~ 0
+Text Label 4050 5150 0    50   ~ 0
 B31
-Text Label 4050 4850 0    50   ~ 0
+Text Label 4050 5050 0    50   ~ 0
 B32
 Text Label 4050 4950 0    50   ~ 0
 B33
-Text Label 4050 5050 0    50   ~ 0
+Text Label 4050 4850 0    50   ~ 0
 B34
-Text Label 4050 5150 0    50   ~ 0
+Text Label 4050 4750 0    50   ~ 0
 B35
-Text Label 4050 5250 0    50   ~ 0
+Text Label 4050 4650 0    50   ~ 0
 B36
-Text Label 4050 5350 0    50   ~ 0
+Text Label 4050 4550 0    50   ~ 0
 B37
-Text Label 4050 5450 0    50   ~ 0
+Text Label 4050 4450 0    50   ~ 0
 B38
-Text Label 4050 5550 0    50   ~ 0
+Text Label 4050 4350 0    50   ~ 0
 B39
-Text Label 2200 5850 0    50   ~ 0
+Text Label 2200 7050 0    50   ~ 0
 A40
-Text Label 2200 5950 0    50   ~ 0
+Text Label 2200 6950 0    50   ~ 0
 A41
-Text Label 2200 6050 0    50   ~ 0
+Text Label 2200 6850 0    50   ~ 0
 A42
-Text Label 2200 6150 0    50   ~ 0
+Text Label 2200 6750 0    50   ~ 0
 A43
-Text Label 2200 6250 0    50   ~ 0
+Text Label 2200 6650 0    50   ~ 0
 A44
-Text Label 2200 6350 0    50   ~ 0
+Text Label 2200 6550 0    50   ~ 0
 A45
 Text Label 2200 6450 0    50   ~ 0
 A46
-Text Label 2200 6550 0    50   ~ 0
+Text Label 2200 6350 0    50   ~ 0
 A47
-Text Label 2200 6650 0    50   ~ 0
+Text Label 2200 6250 0    50   ~ 0
 A48
-Text Label 2200 6750 0    50   ~ 0
+Text Label 2200 6150 0    50   ~ 0
 A49
-Text Label 2200 6850 0    50   ~ 0
+Text Label 2200 6050 0    50   ~ 0
 A50
-Text Label 2200 6950 0    50   ~ 0
+Text Label 2200 5950 0    50   ~ 0
 A51
-Text Label 2200 7050 0    50   ~ 0
+Text Label 2200 5850 0    50   ~ 0
 A52
-Text Label 4050 5850 0    50   ~ 0
+Text Label 4050 7050 0    50   ~ 0
 B40
-Text Label 4050 5950 0    50   ~ 0
+Text Label 4050 6950 0    50   ~ 0
 B41
-Text Label 4050 6050 0    50   ~ 0
+Text Label 4050 6850 0    50   ~ 0
 B42
-Text Label 4050 6150 0    50   ~ 0
+Text Label 4050 6750 0    50   ~ 0
 B43
-Text Label 4050 6250 0    50   ~ 0
+Text Label 4050 6650 0    50   ~ 0
 B44
-Text Label 4050 6350 0    50   ~ 0
+Text Label 4050 6550 0    50   ~ 0
 B45
 Text Label 4050 6450 0    50   ~ 0
 B46
-Text Label 4050 6550 0    50   ~ 0
+Text Label 4050 6350 0    50   ~ 0
 B47
-Text Label 4050 6650 0    50   ~ 0
+Text Label 4050 6250 0    50   ~ 0
 B48
-Text Label 4050 6750 0    50   ~ 0
+Text Label 4050 6150 0    50   ~ 0
 B49
-Text Label 4050 6850 0    50   ~ 0
+Text Label 4050 6050 0    50   ~ 0
 B50
-Text Label 4050 6950 0    50   ~ 0
+Text Label 4050 5950 0    50   ~ 0
 B51
-Text Label 4050 7050 0    50   ~ 0
+Text Label 4050 5850 0    50   ~ 0
 B52
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F59E490
+P 7450 5250
+F 0 "H1" H 7550 5299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7550 5208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 7450 5250 50  0001 C CNN
+F 3 "~" H 7450 5250 50  0001 C CNN
+	1    7450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F5A173F
+P 8450 5250
+F 0 "H2" H 8550 5299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8550 5208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 8450 5250 50  0001 C CNN
+F 3 "~" H 8450 5250 50  0001 C CNN
+	1    8450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5F5D55CB
+P 7450 5450
+F 0 "#PWR01" H 7450 5200 50  0001 C CNN
+F 1 "GND" H 7455 5277 50  0000 C CNN
+F 2 "" H 7450 5450 50  0001 C CNN
+F 3 "" H 7450 5450 50  0001 C CNN
+	1    7450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5F5D6345
+P 8450 5450
+F 0 "#PWR02" H 8450 5200 50  0001 C CNN
+F 1 "GND" H 8455 5277 50  0000 C CNN
+F 2 "" H 8450 5450 50  0001 C CNN
+F 3 "" H 8450 5450 50  0001 C CNN
+	1    8450 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 5450 7450 5350
+Wire Wire Line
+	8450 5450 8450 5350
+Wire Wire Line
+	2200 2550 2000 2550
+Wire Wire Line
+	2000 2450 2200 2450
+Wire Wire Line
+	2200 2350 2000 2350
+Wire Wire Line
+	2000 2250 2200 2250
+Wire Wire Line
+	2200 2150 2000 2150
+Wire Wire Line
+	2000 2050 2200 2050
+Wire Wire Line
+	2200 1950 2000 1950
+Wire Wire Line
+	2000 1850 2200 1850
+Wire Wire Line
+	2200 1750 2000 1750
+Wire Wire Line
+	2000 1650 2200 1650
+Wire Wire Line
+	2200 1550 2000 1550
+Wire Wire Line
+	2000 1450 2200 1450
 Wire Wire Line
 	2000 1350 2200 1350
 Wire Wire Line
-	2200 1450 2000 1450
+	2000 2850 2200 2850
 Wire Wire Line
-	2000 1550 2200 1550
+	2200 2950 2000 2950
 Wire Wire Line
-	2200 1650 2000 1650
+	2000 3050 2200 3050
 Wire Wire Line
-	2000 1750 2200 1750
+	2200 3150 2000 3150
 Wire Wire Line
-	2200 1850 2000 1850
+	2000 3250 2200 3250
 Wire Wire Line
-	2000 1950 2200 1950
+	2200 3350 2000 3350
 Wire Wire Line
-	2200 2050 2000 2050
+	2000 3450 2200 3450
 Wire Wire Line
-	2000 2150 2200 2150
+	2200 3550 2000 3550
 Wire Wire Line
-	2200 2250 2000 2250
+	2000 3650 2200 3650
 Wire Wire Line
-	2000 2350 2200 2350
+	2200 3750 2000 3750
 Wire Wire Line
-	2200 2450 2000 2450
+	2000 3850 2200 3850
 Wire Wire Line
-	2000 2550 2200 2550
+	2200 3950 2000 3950
 Wire Wire Line
-	2200 2850 2000 2850
-Wire Wire Line
-	2000 2950 2200 2950
-Wire Wire Line
-	2200 3050 2000 3050
-Wire Wire Line
-	2000 3150 2200 3150
-Wire Wire Line
-	2200 3250 2000 3250
-Wire Wire Line
-	2000 3350 2200 3350
-Wire Wire Line
-	2200 3450 2000 3450
-Wire Wire Line
-	2000 3550 2200 3550
-Wire Wire Line
-	2200 3650 2000 3650
-Wire Wire Line
-	2000 3750 2200 3750
-Wire Wire Line
-	2200 3850 2000 3850
-Wire Wire Line
-	2000 3950 2200 3950
-Wire Wire Line
-	2200 4050 2000 4050
+	2000 4050 2200 4050
 Wire Wire Line
 	2000 4350 2200 4350
 Wire Wire Line
@@ -956,51 +993,14 @@ Wire Wire Line
 Wire Wire Line
 	3850 7050 4050 7050
 $Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5F59E490
-P 7450 5250
-F 0 "H1" H 7550 5299 50  0000 L CNN
-F 1 "MountingHole_Pad" H 7550 5208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 7450 5250 50  0001 C CNN
-F 3 "~" H 7450 5250 50  0001 C CNN
-	1    7450 5250
+L TSW-126-07-X-D:SAMTEC-TSW-126-07-X-D J9
+U 1 1 5EED858F
+P 6100 1500
+F 0 "J9" H 6952 1867 50  0000 C CNN
+F 1 "SAMTEC-SSW-126-01-G-D" H 6952 1776 50  0000 C CNN
+F 2 "lib:TSW-126-07-X-D" H 6100 1500 50  0001 L BNN
+F 3 "" H 6100 1500 50  0001 C CNN
+	1    6100 1500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5F5A173F
-P 8450 5250
-F 0 "H2" H 8550 5299 50  0000 L CNN
-F 1 "MountingHole_Pad" H 8550 5208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 8450 5250 50  0001 C CNN
-F 3 "~" H 8450 5250 50  0001 C CNN
-	1    8450 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 5F5D55CB
-P 7450 5450
-F 0 "#PWR01" H 7450 5200 50  0001 C CNN
-F 1 "GND" H 7455 5277 50  0000 C CNN
-F 2 "" H 7450 5450 50  0001 C CNN
-F 3 "" H 7450 5450 50  0001 C CNN
-	1    7450 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 5F5D6345
-P 8450 5450
-F 0 "#PWR02" H 8450 5200 50  0001 C CNN
-F 1 "GND" H 8455 5277 50  0000 C CNN
-F 2 "" H 8450 5450 50  0001 C CNN
-F 3 "" H 8450 5450 50  0001 C CNN
-	1    8450 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 5450 7450 5350
-Wire Wire Line
-	8450 5450 8450 5350
 $EndSCHEMATC
