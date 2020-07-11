@@ -2,15 +2,24 @@
 
 ## Bottom Board
 
-![](bottom-board/img/pc104-adapter-top-top.png)
+<p align="center">
+<img src="https://github.com/spacelab-ufsc/pc104-adapter/blob/master/bottom-board/img/pc104-adapter-bottom-top.png">
+</p>
 
-![](bottom-board/img/pc104-adapter-top-bottom.png)
+<p align="center">
+<img src="https://github.com/spacelab-ufsc/pc104-adapter/blob/master/bottom-board/img/pc104-adapter-bottom-bottom.png">
+</p>
 
 ## Top Board
 
-![](top-board/img/pc104-adapter-bottom-top.png)
+<p align="center">
+<img src="https://github.com/spacelab-ufsc/pc104-adapter/blob/master/top-board/img/pc104-adapter-top-top.png">
+</p>
 
-![](top-board/img/pc104-adapter-bottom-bottom.png)
+<p align="center">
+<img src="https://github.com/spacelab-ufsc/pc104-adapter/blob/master/top-board/img/pc104-adapter-top-bottom.png">
+</p>
+
 
 ## License
 
