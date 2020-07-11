@@ -1,4 +1,4 @@
-update=Sun 21 Jun 2020 01:49:27 -03
+update=Fri 10 Jul 2020 21:26:33 -03
 version=1
 last_client=kicad
 [general]
@@ -239,7 +239,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=/home/gabriel/git/pc104-adapter/
+PlotDirectoryName=outputs/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
