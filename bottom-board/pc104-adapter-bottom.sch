@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "PC-104 to PicoBlade Adapter (Bottom)"
-Date "2020-08-03"
+Date "2020-08-13"
 Rev "v2.0"
 Comp "SpaceLab"
 Comment1 "Author: Gabriel Mariano Marcelino"
