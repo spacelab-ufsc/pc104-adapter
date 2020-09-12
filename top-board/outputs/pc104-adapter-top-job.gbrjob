@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.6-1.fc32"
     },
-    "CreationDate":  "2020-07-10T21:32:06-03:00"
+    "CreationDate":  "2020-09-11T22:13:51-03:00"
   },
   "GeneralSpecs":
   {
@@ -15,12 +15,12 @@
     {
       "Name": "pc104-adapter-top",
       "GUID": "70633130-342d-4616-9461-707465722d74",
-      "Revision": "v1.0"
+      "Revision": "v2.0"
     },
     "Size":
     {
-      "X": 92.950,
-      "Y": 32.714
+      "X": 86.250,
+      "Y": 91.914
     },
     "LayerNumber": 4,
     "BoardThickness":  1.600
