@@ -1,0 +1,14 @@
+### Module positions - created on Thu Sep 17 12:38:53 2020 ###
+### Printed by Pcbnew version kicad 5.1.6-1.fc32
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val              Package                                                    PosX       PosY       Rot  Side
+J1        Conn_01x13_Male  Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical    17.3850    60.9000  270.0000  top
+J2        Conn_01x13_Male  Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical    38.4340    60.9000  270.0000  top
+J3        Conn_01x13_Male  Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical    59.4830    60.9000   90.0000  top
+J4        Conn_01x13_Male  Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical    70.0080    60.9000   90.0000  top
+J5        Conn_01x13_Male  Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical     6.8600    60.9000  270.0000  top
+J6        Conn_01x13_Male  Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical    27.9090    60.9000  270.0000  top
+J7        Conn_01x13_Male  Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical    48.9580    60.9000   90.0000  top
+J8        Conn_01x13_Male  Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical    80.5320    60.9000   90.0000  top
+## End
