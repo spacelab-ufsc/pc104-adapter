@@ -20,7 +20,7 @@
 <p align="center">
     <a href="#overview">Overview</a> •
     <a href="#repository-organization">Repository Organizarion</a> •
-    <a href="#license">License</a> •
+    <a href="#license">License</a>
 </p>
 
 <p align="center">
