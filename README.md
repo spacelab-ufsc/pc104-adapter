@@ -24,11 +24,7 @@
 </p>
 
 <p align="center">
-    <img src="https://github.com/spacelab-ufsc/pc104-adapter/blob/master/bottom-board/img/pc104-adapter-bottom-top.png">
-</p>
-
-<p align="center">
-    <img src="https://github.com/spacelab-ufsc/pc104-adapter/blob/master/top-board/img/pc104-adapter-top-top.png">
+    <img src="https://github.com/spacelab-ufsc/pc104-adapter/blob/master/doc/figures/pc104-adapter.png">
 </p>
 
 ## Overview
@@ -45,4 +41,4 @@
 
 ## License
 
-This project is licensed under GPL license, version 3.
+This project is licensed under CERN Open Hardware License, version 2.
