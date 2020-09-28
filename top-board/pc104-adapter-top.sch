@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "PC-104 to PicoBlade Adapter (Bottom)"
-Date "2020-06-21"
+Date "2020-08-13"
 Rev "v1.0"
 Comp "SpaceLab"
 Comment1 "Author: Gabriel Mariano Marcelino"
@@ -739,51 +739,51 @@ B52
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5F59E490
-P 7450 5250
-F 0 "H1" H 7550 5299 50  0000 L CNN
-F 1 "MountingHole_Pad" H 7550 5208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 7450 5250 50  0001 C CNN
-F 3 "~" H 7450 5250 50  0001 C CNN
-	1    7450 5250
+P 6400 5300
+F 0 "H1" H 6500 5349 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6500 5258 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 6400 5300 50  0001 C CNN
+F 3 "~" H 6400 5300 50  0001 C CNN
+	1    6400 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5F5A173F
-P 8450 5250
-F 0 "H2" H 8550 5299 50  0000 L CNN
-F 1 "MountingHole_Pad" H 8550 5208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 8450 5250 50  0001 C CNN
-F 3 "~" H 8450 5250 50  0001 C CNN
-	1    8450 5250
+P 7400 5300
+F 0 "H2" H 7500 5349 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7500 5258 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 7400 5300 50  0001 C CNN
+F 3 "~" H 7400 5300 50  0001 C CNN
+	1    7400 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5F5D55CB
-P 7450 5450
-F 0 "#PWR01" H 7450 5200 50  0001 C CNN
-F 1 "GND" H 7455 5277 50  0000 C CNN
-F 2 "" H 7450 5450 50  0001 C CNN
-F 3 "" H 7450 5450 50  0001 C CNN
-	1    7450 5450
+P 6400 5500
+F 0 "#PWR01" H 6400 5250 50  0001 C CNN
+F 1 "GND" H 6405 5327 50  0000 C CNN
+F 2 "" H 6400 5500 50  0001 C CNN
+F 3 "" H 6400 5500 50  0001 C CNN
+	1    6400 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5F5D6345
-P 8450 5450
-F 0 "#PWR02" H 8450 5200 50  0001 C CNN
-F 1 "GND" H 8455 5277 50  0000 C CNN
-F 2 "" H 8450 5450 50  0001 C CNN
-F 3 "" H 8450 5450 50  0001 C CNN
-	1    8450 5450
+P 7400 5500
+F 0 "#PWR02" H 7400 5250 50  0001 C CNN
+F 1 "GND" H 7405 5327 50  0000 C CNN
+F 2 "" H 7400 5500 50  0001 C CNN
+F 3 "" H 7400 5500 50  0001 C CNN
+	1    7400 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 5450 7450 5350
+	6400 5500 6400 5400
 Wire Wire Line
-	8450 5450 8450 5350
+	7400 5500 7400 5400
 Wire Wire Line
 	2200 2550 2000 2550
 Wire Wire Line
@@ -1003,4 +1003,52 @@ F 3 "" H 6100 1500 50  0001 C CNN
 	1    6100 1500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5F352380
+P 8400 5300
+F 0 "H3" H 8500 5349 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8500 5258 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 8400 5300 50  0001 C CNN
+F 3 "~" H 8400 5300 50  0001 C CNN
+	1    8400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5F352386
+P 9400 5300
+F 0 "H4" H 9500 5349 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9500 5258 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 9400 5300 50  0001 C CNN
+F 3 "~" H 9400 5300 50  0001 C CNN
+	1    9400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F35238C
+P 8400 5500
+F 0 "#PWR0101" H 8400 5250 50  0001 C CNN
+F 1 "GND" H 8405 5327 50  0000 C CNN
+F 2 "" H 8400 5500 50  0001 C CNN
+F 3 "" H 8400 5500 50  0001 C CNN
+	1    8400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F352392
+P 9400 5500
+F 0 "#PWR0102" H 9400 5250 50  0001 C CNN
+F 1 "GND" H 9405 5327 50  0000 C CNN
+F 2 "" H 9400 5500 50  0001 C CNN
+F 3 "" H 9400 5500 50  0001 C CNN
+	1    9400 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 5500 8400 5400
+Wire Wire Line
+	9400 5500 9400 5400
 $EndSCHEMATC

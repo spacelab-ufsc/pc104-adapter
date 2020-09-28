@@ -1,0 +1,3 @@
+Item,Designator,Quantity,Manufacturer,Partnumber,Description,Package/Footprint,Type,Instructions
+1,"J9, J10",2,"Samtec","TSW-126-07-G-D","Headers & Wire Housings .100 Terminal Strip","Connector","Through hole","Solder in top side, component in bottom side"
+2,"J1, J2, J3, J4, J5, J6, J7, J8",8,"Molex","53398-1371","Headers & Wire Housings 1.25MM HDR 13 CKT Vertical","Connector","SMD/SMT",
