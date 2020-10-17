@@ -1,5 +1,5 @@
 SRC=main
-TARGET=pc104_adapter_doc
+TARGET=slb-pc104adapt-doc-v2.0
 
 ifndef BUILD_DIR
 	BUILD_DIR=build
