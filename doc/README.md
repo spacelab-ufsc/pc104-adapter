@@ -1,4 +1,4 @@
-# Documentation
+# PC-104 Adapter Documentation
 
 ## Dependencies
 
@@ -10,3 +10,7 @@
 ```
 make
 ```
+
+## License
+
+This document is licensed under Creative Commons Attribution Share Alike 4.0 International.
