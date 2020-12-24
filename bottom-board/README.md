@@ -27,9 +27,10 @@
 
 # Overview
 
-![](img/pc104-adapter-bottom-top.png)
-
-![](img/pc104-adapter-bottom-bottom.png)
+<p align="center">
+    <img src="https://github.com/spacelab-ufsc/pc104-adapter/blob/master/doc/figures/pc104-adapter-bottom-top.png">
+    <img src="https://github.com/spacelab-ufsc/pc104-adapter/blob/master/doc/figures/pc104-adapter-bottom-bottom.png">
+</p>
 
 # License
 
