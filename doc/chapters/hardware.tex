@@ -24,9 +24,15 @@
 
 \chapter{Hardware Overview} \label{ch:hardware}
 
-\cite{picoblade}
+The hardware project is composed by two boards: top and bottom. Both PCB\nomenclature{\textbf{PCB}}{\textit{Printed Circuit Board.}}s were designed using KiCad v5.1.8-5 \cite{kicad}. Both boards have also the same size, shape and number os layers (4), and are vertically simetrical (same components, but in different sides of the board).
+
+All the pins of the PC-104 connector are routed between the two boards, this way, this adapter can be used in any configuration of the PC-104 pins.
+
+Both boards have also an inner hole to allow vertically passing internal cables of the satellite.
 
 \section{Top Board}
+
+A 3D model of the top board can be seen in Figures \ref{fig:top-board-top} (top side) and \ref{fig:top-board-bottom} (bottom side).
 
 \begin{figure}[!htb]
     \begin{center}
@@ -45,6 +51,8 @@
 \end{figure}
 
 \section{Bottom Board}
+
+A 3D model of the bottom board can be seen in Figures \ref{fig:bottom-board-top} (top side) and \ref{fig:bottom-board-bottom} (bottom side).
 
 \begin{figure}[!htb]
     \begin{center}
@@ -142,11 +150,11 @@ The connection between the PicoBlade connectors and the PC-104 bus is available 
 
 \section{Bill of Materials}
 
-The Bill of Materials (BOM\nomenclature{\textbf{BOM}}{\textit{Bill Of Materials.}}) of the top and bottom boards are available in Tables \ref{tab:bom-top-board} and \ref{tab:bom-bottom-board}, respectively.
+The Bill of Materials (BOM\nomenclature{\textbf{BOM}}{\textit{Bill Of Materials.}}) of the top and bottom boards, and the interconnection cables are available in Tables \ref{tab:bom-top-board}, \ref{tab:bom-bottom-board} and \ref{tab:bom-cables}, respectively.
 
 \begin{table}[!h]
     \centering
-    \begin{tabular}{cllr}
+    \begin{tabular}{cL{5.8cm}L{5.8cm}r}
         \toprule[1.5pt]
         \textbf{Item}   & \textbf{Designator}            & \textbf{Partnumber} & \textbf{Quantity} \\
         \midrule
@@ -160,7 +168,7 @@ The Bill of Materials (BOM\nomenclature{\textbf{BOM}}{\textit{Bill Of Materials.
 
 \begin{table}[!h]
     \centering
-    \begin{tabular}{cllr}
+    \begin{tabular}{cL{5.8cm}L{5.8cm}r}
         \toprule[1.5pt]
         \textbf{Item}   & \textbf{Designator}            & \textbf{Partnumber} & \textbf{Quantity} \\
         \midrule
@@ -170,4 +178,18 @@ The Bill of Materials (BOM\nomenclature{\textbf{BOM}}{\textit{Bill Of Materials.
     \end{tabular}
     \caption{Bill of Materials (BOM) of the bottom board.}
     \label{tab:bom-bottom-board}
+\end{table}
+
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{cL{5.8cm}L{5.8cm}r}
+        \toprule[1.5pt]
+        \textbf{Item}   & \textbf{Designator}            & \textbf{Partnumber} & \textbf{Quantity} \\
+        \midrule
+        1               & -                              & 51021-1300          & 8                 \\
+        2               & -                              & 15134-1401          & 16                \\
+        \bottomrule[1.5pt]
+    \end{tabular}
+    \caption{Bill of Materials (BOM) of the connection cables.}
+    \label{tab:bom-cables}
 \end{table}

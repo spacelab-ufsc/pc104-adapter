@@ -1,5 +1,5 @@
 <h1 align="center">
-	PC-104 Adapter Documentation
+	PC-104 ADAPTER DOCUMENTATION
 	<br>
 </h1>
 
