@@ -24,15 +24,15 @@
 
 \chapter{Hardware Overview} \label{ch:hardware}
 
-The hardware project is composed by two boards: top and bottom. Both PCB\nomenclature{\textbf{PCB}}{\textit{Printed Circuit Board.}}s were designed using KiCad v5.1.8-5 \cite{kicad}. Both boards have also the same size, shape and number os layers (4), and are vertically simetrical (same components, but in different sides of the board).
+The hardware project is composed by two boards: top and bottom. Both PCB\nomenclature{\textbf{PCB}}{\textit{Printed Circuit Board.}}s were designed using KiCad v5.1.8-5 \cite{kicad}. Both boards also have the same size, shape and number of layers (4), and are vertically symmetrical (same components, but in different sides of the board).
 
-All the pins of the PC-104 connector are routed between the two boards, this way, this adapter can be used in any configuration of the PC-104 pins.
+All pins of the PC-104 connector are routed between the two boards, this way, this adapter can be used in any configuration of the PC-104 pins.
 
-Both boards have also an inner hole to allow vertically passing internal cables of the satellite.
+Both boards also have an inner cavity to allow vertically passing internal cables of the satellite. All the screw holes are connected to the copper planes of the board, but isolated from the PC-104 tracks (in other words, no signal is grounded to the chassi).
 
 \section{Top Board}
 
-A 3D model of the top board can be seen in Figures \ref{fig:top-board-top} (top side) and \ref{fig:top-board-bottom} (bottom side).
+The top board is composed by eight PicoBlade connectors (13 pins, straight, male) and a female PC-104 connector. A 3D model of the top board can be seen in Figures \ref{fig:top-board-top} (top side) and \ref{fig:top-board-bottom} (bottom side).
 
 \begin{figure}[!htb]
     \begin{center}
@@ -52,7 +52,7 @@ A 3D model of the top board can be seen in Figures \ref{fig:top-board-top} (top 
 
 \section{Bottom Board}
 
-A 3D model of the bottom board can be seen in Figures \ref{fig:bottom-board-top} (top side) and \ref{fig:bottom-board-bottom} (bottom side).
+The bottom board is composed by eight PicoBlade connectors (13 pins, straight, male) and a male PC-104 connector. A 3D model of the bottom board can be seen in Figures \ref{fig:bottom-board-top} (top side) and \ref{fig:bottom-board-bottom} (bottom side).
 
 \begin{figure}[!htb]
     \begin{center}
@@ -94,6 +94,8 @@ The connection between the PicoBlade connectors and the PC-104 bus is available 
 
 \subsection{Top Board}
 
+In \autoref{tab:pinout-top-board}, the connection between the PicoBlade connectors and the PC-104 bus of the top board is available.
+
 \begin{table}[!h]
     \centering
     \begin{tabular}{crrrrrrrr}
@@ -121,6 +123,8 @@ The connection between the PicoBlade connectors and the PC-104 bus is available 
 \end{table}
 
 \subsection{Bottom Board}
+
+In \autoref{tab:pinout-bottom-board}, the connection between the PicoBlade connectors and the PC-104 bus of the bottom board is available.
 
 \begin{table}[!h]
     \centering

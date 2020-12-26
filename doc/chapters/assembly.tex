@@ -28,6 +28,34 @@ This chapter presents the assembly instructions of the two boards and the interc
 
 This project does not have sensible components (electrostatic or temperature), and no major care should be taken during the solder process. A recommended temperature of the soldering iron can be 350 $^{\circ}$C or lower.
 
+\section{PCB Fabrication}
+
+There is no major concerns about the PCBs fabrication. The boards were not designed to be fabricated without a solder mask, but if possible a Class 3 fabrication is recommended. A list with the recommended configuration can be seen in \autoref{tab:pcb-fabrication}.
+
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{L{0.5\columnwidth}L{0.5\columnwidth}}
+        \toprule[1.5pt]
+        \textbf{Parameter}      & \textbf{Value} \\
+        \midrule
+        Size                    & 86.26 $\times$ 91.9 mm \\
+        Layers                  & 4 \\
+        Thickness               & 1.6 mm \\
+        Minimum Hole Size       & 0.3 mm \\
+        Silkscreen Color        & White \\
+        Surface Finish          & HASL with lead \\
+        Via Process             & Tenting vias \\
+        Material                & FR-4: TG150 \\
+        Minimum Track/Spacing   & 6/6 mil \\
+        Solder Mask Color       & Green \\
+        Gold Fingers            & No \\
+        Finish Copper           & 1 oz Cu (Inner Copper: 1 oz) \\
+        \bottomrule[1.5pt]
+    \end{tabular}
+    \caption{Recommended configuration for fabrication.}
+    \label{tab:pcb-fabrication}
+\end{table}
+
 \section{Top Board}
 
 The instructions to assembly the top board are presented below:
@@ -70,5 +98,7 @@ For now, there is no assembled cables with 13 wires available to buy. So, a cust
 The instructions to assembly these custom cables are presented below:
 
 \begin{enumerate}
-    \item TBD.
+    \item Remove all wiring housing from 15134-1401.
+    \item Mount the wires in 51021-1300.
+    \item As 15134-1401 is a cable assembly with 14 wires and 51021-1300 is a connector with 13 positions, one wire per cable will remain.
 \end{enumerate}
