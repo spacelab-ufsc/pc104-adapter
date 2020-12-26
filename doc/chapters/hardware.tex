@@ -24,9 +24,15 @@
 
 \chapter{Hardware Overview} \label{ch:hardware}
 
-\cite{picoblade}
+The hardware project is composed by two boards: top and bottom. Both PCB\nomenclature{\textbf{PCB}}{\textit{Printed Circuit Board.}}s were designed using KiCad v5.1.8-5 \cite{kicad}. Both boards also have the same size, shape and number of layers (4), and are vertically symmetrical (same components, but in different sides of the board).
+
+All pins of the PC-104 connector are routed between the two boards, this way, this adapter can be used in any configuration of the PC-104 pins.
+
+Both boards also have an inner cavity to allow vertically passing internal cables of the satellite. All the screw holes are connected to the copper planes of the board, but isolated from the PC-104 tracks (in other words, no signal is grounded to the chassi).
 
 \section{Top Board}
+
+The top board is composed by eight PicoBlade connectors (13 pins, straight, male) and a female PC-104 connector. A 3D model of the top board can be seen in Figures \ref{fig:top-board-top} (top side) and \ref{fig:top-board-bottom} (bottom side).
 
 \begin{figure}[!htb]
     \begin{center}
@@ -45,6 +51,8 @@
 \end{figure}
 
 \section{Bottom Board}
+
+The bottom board is composed by eight PicoBlade connectors (13 pins, straight, male) and a male PC-104 connector. A 3D model of the bottom board can be seen in Figures \ref{fig:bottom-board-top} (top side) and \ref{fig:bottom-board-bottom} (bottom side).
 
 \begin{figure}[!htb]
     \begin{center}
@@ -86,6 +94,8 @@ The connection between the PicoBlade connectors and the PC-104 bus is available 
 
 \subsection{Top Board}
 
+In \autoref{tab:pinout-top-board}, the connection between the PicoBlade connectors and the PC-104 bus of the top board is available.
+
 \begin{table}[!h]
     \centering
     \begin{tabular}{crrrrrrrr}
@@ -113,6 +123,8 @@ The connection between the PicoBlade connectors and the PC-104 bus is available 
 \end{table}
 
 \subsection{Bottom Board}
+
+In \autoref{tab:pinout-bottom-board}, the connection between the PicoBlade connectors and the PC-104 bus of the bottom board is available.
 
 \begin{table}[!h]
     \centering
@@ -142,11 +154,11 @@ The connection between the PicoBlade connectors and the PC-104 bus is available 
 
 \section{Bill of Materials}
 
-The Bill of Materials (BOM\nomenclature{\textbf{BOM}}{\textit{Bill Of Materials.}}) of the top and bottom boards are available in Tables \ref{tab:bom-top-board} and \ref{tab:bom-bottom-board}, respectively.
+The Bill of Materials (BOM\nomenclature{\textbf{BOM}}{\textit{Bill Of Materials.}}) of the top and bottom boards, and the interconnection cables are available in Tables \ref{tab:bom-top-board}, \ref{tab:bom-bottom-board} and \ref{tab:bom-cables}, respectively.
 
 \begin{table}[!h]
     \centering
-    \begin{tabular}{cllr}
+    \begin{tabular}{cL{5.8cm}L{5.8cm}r}
         \toprule[1.5pt]
         \textbf{Item}   & \textbf{Designator}            & \textbf{Partnumber} & \textbf{Quantity} \\
         \midrule
@@ -160,7 +172,7 @@ The Bill of Materials (BOM\nomenclature{\textbf{BOM}}{\textit{Bill Of Materials.
 
 \begin{table}[!h]
     \centering
-    \begin{tabular}{cllr}
+    \begin{tabular}{cL{5.8cm}L{5.8cm}r}
         \toprule[1.5pt]
         \textbf{Item}   & \textbf{Designator}            & \textbf{Partnumber} & \textbf{Quantity} \\
         \midrule
@@ -170,4 +182,18 @@ The Bill of Materials (BOM\nomenclature{\textbf{BOM}}{\textit{Bill Of Materials.
     \end{tabular}
     \caption{Bill of Materials (BOM) of the bottom board.}
     \label{tab:bom-bottom-board}
+\end{table}
+
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{cL{5.8cm}L{5.8cm}r}
+        \toprule[1.5pt]
+        \textbf{Item}   & \textbf{Designator}            & \textbf{Partnumber} & \textbf{Quantity} \\
+        \midrule
+        1               & -                              & 51021-1300          & 8                 \\
+        2               & -                              & 15134-1401          & 16                \\
+        \bottomrule[1.5pt]
+    \end{tabular}
+    \caption{Bill of Materials (BOM) of the connection cables.}
+    \label{tab:bom-cables}
 \end{table}
