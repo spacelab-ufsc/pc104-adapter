@@ -1,0 +1,26 @@
+Drill report for pc104-adapter-bottom.kicad_pcb
+Created on Fri 17 Nov 2023 02:47:32 -03
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'pc104-adapter-bottom-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.400mm  0.0157"  (63 holes)
+    T2  1.020mm  0.0402"  (104 holes)
+    T3  3.200mm  0.1260"  (4 holes)
+
+    Total plated holes count 171
+
+
+Drill file 'pc104-adapter-bottom-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
