@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name SSW-126-01-G-D)(type Legacy)(uri ${KIPRJMOD}/lib/SSW-126-01-G-D.lib)(options "")(descr ""))
-  (lib (name TSW-126-07-X-D)(type Legacy)(uri ${KIPRJMOD}/lib/TSW-126-07-X-D.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "SSW-126-01-G-D")(type "Legacy")(uri "${KIPRJMOD}/lib/SSW-126-01-G-D.lib")(options "")(descr ""))
+  (lib (name "TSW-126-07-X-D")(type "Legacy")(uri "${KIPRJMOD}/lib/TSW-126-07-X-D.lib")(options "")(descr ""))
+  (lib (name "pc104-adapter-bottom-rescue")(type "KiCad")(uri "${KIPRJMOD}/pc104-adapter-bottom-rescue.kicad_sym")(options "")(descr ""))
 )

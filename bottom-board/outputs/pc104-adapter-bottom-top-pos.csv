@@ -1,0 +1,11 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"J1","Conn_01x13_Male","Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical",18.385000,61.800000,-90.000000,top
+"J2","Conn_01x13_Male","Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical",39.434000,61.800000,-90.000000,top
+"J3","Conn_01x13_Male","Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical",60.483000,61.800000,90.000000,top
+"J4","Conn_01x13_Male","Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical",71.008000,61.800000,90.000000,top
+"J5","Conn_01x13_Male","Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical",7.860000,61.800000,-90.000000,top
+"J6","Conn_01x13_Male","Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical",28.909000,61.800000,-90.000000,top
+"J7","Conn_01x13_Male","Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical",49.958000,61.800000,90.000000,top
+"J8","Conn_01x13_Male","Molex_PicoBlade_53398-1371_1x13-1MP_P1.25mm_Vertical",81.532000,61.800000,90.000000,top
+"J9","SAMTEC-TSW-126-07-X-D","TSW-126-07-X-D",44.700000,88.394000,0.000000,top
+"J10","SAMTEC-TSW-126-07-X-D","TSW-126-07-X-D",44.700000,83.314000,0.000000,top
