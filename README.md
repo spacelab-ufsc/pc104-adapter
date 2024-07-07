@@ -28,17 +28,7 @@
 
 ## Overview
 
-The PC-104 Adapter is a set of two boards that allow the connection between two separated stacks of PC-104 boards using PicoBlade cables.
-
-All the 104 pins of the PC-104 connector are connected through the cables.
-
-### Top Board
-
-The Top Board has eight PicoBlade connectors (13 pins version) on the bottom side and a PC-104 connector (female) on the top side.
-
-### Bottom Board
-
-The Bottom Board has eight PicoBlade connectors (13 pins version) on the top side and a PC-104 connector (male) on the bottom side.
+The PC-104 Adapter is a set of two boards that allow the connection between two separated stacks of PC-104 boards.
 
 ## License
 
