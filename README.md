@@ -10,7 +10,7 @@
         <img src="https://img.shields.io/badge/open%20source-hardware-blue?style=for-the-badge">
     </a>
     <a href="https://github.com/spacelab-ufsc/pc104-adapter/releases">
-        <img src="https://img.shields.io/badge/status-development-9cf?style=for-the-badge">
+        <img src="https://img.shields.io/badge/status-production-9cf?style=for-the-badge">
     </a>
     <a href="https://github.com/spacelab-ufsc/pc104-adapter/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/LICENSE-CERN%20OHL%202-green?style=for-the-badge">
