@@ -22,8 +22,9 @@
     <a href="#license">License</a>
 </p>
 
-<p align="center">
-    <img src="https://github.com/spacelab-ufsc/pc104-adapter/blob/master/doc/figures/pc104-adapter.png">
+<p float="middle">
+    <img align="top" src="img/pc104-adapter-top-overview.png" width="45%" />
+    <img align="top" src="img/pc104-adapter-bottom-overview.png" width="45%" />
 </p>
 
 ## Overview
