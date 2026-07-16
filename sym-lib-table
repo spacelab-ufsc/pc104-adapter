@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SSW-126-01-G-D")(type "Legacy")(uri "${KIPRJMOD}/lib/SSW-126-01-G-D.lib")(options "")(descr ""))
+  (lib (name "TSW-126-07-X-D")(type "Legacy")(uri "${KIPRJMOD}/lib/TSW-126-07-X-D.lib")(options "")(descr ""))
+  (lib (name "pc104-adapter-rescue")(type "KiCad")(uri "${KIPRJMOD}/pc104-adapter-rescue.kicad_sym")(options "")(descr ""))
+)
