@@ -1,7 +1,7 @@
 %
 % assembly.tex
 %
-% Copyright (C) 2020 by SpaceLab.
+% Copyright The PC-104 Adapter Contributors.
 %
 % PC-104 Adapter Documentation
 %
@@ -15,9 +15,7 @@
 %
 % \author Gabriel Mariano Marcelino <gabriel.mm8@gmail.com>
 %
-% \institution Universidade Federal de Santa Catarina (UFSC)
-%
-% \version 2.0.0
+% \version 3.0.0
 %
 % \date 2020/10/19
 %
@@ -34,7 +32,7 @@ There is no major concerns about the PCBs fabrication. The boards were not desig
 
 \begin{table}[!h]
     \centering
-    \begin{tabular}{L{0.5\columnwidth}L{0.5\columnwidth}}
+    \begin{tabular}{lc}
         \toprule[1.5pt]
         \textbf{Parameter}      & \textbf{Value} \\
         \midrule
@@ -61,25 +59,8 @@ There is no major concerns about the PCBs fabrication. The boards were not desig
 The instructions to assembly the top board are presented below:
 
 \begin{enumerate}
-    \item Solder the PicoBlade connectors (J1, J2, J3, J4, J5, J6, J7 and J8), beginning with the external connectors and moving to the center of the board, as can be seen in \autoref{fig:picoblades-instructions}.
-
-\begin{figure}[!htb]
-    \begin{center}
-        \includegraphics[width=0.6\columnwidth]{figures/picoblade-solder}
-        \caption{Solder sequence of the PicoBlade connectors.}
-        \label{fig:picoblades-instructions}
-    \end{center}
-\end{figure}
-
+    \item Solder the PicoBlade connectors (J1, J2, J3, J4, J5, J6, J7 and J8), beginning with the external connectors and moving to the center of the board, as can be seen in .
     \item Solder the PC-104 connectors (J9 and J10), taking care to keep the alignment of all the pins with the surface of the board, as can be seen in \autoref{fig:pc104-alignment}.
-
-\begin{figure}[!htb]
-    \begin{center}
-        \includegraphics[width=0.7\columnwidth]{figures/pc104-alignment}
-        \caption{Alignment of the PC-104 connectors.}
-        \label{fig:pc104-alignment}
-    \end{center}
-\end{figure}
 \end{enumerate}
 
 \section{Bottom Board}
@@ -87,18 +68,6 @@ The instructions to assembly the top board are presented below:
 The same instructions apply to the bottom board:
 
 \begin{enumerate}
-    \item Solder the PicoBlade connectors (J1, J2, J3, J4, J5, J6, J7 and J8), beginning with the external connectors and moving to the center of the board, as can be seen in \autoref{fig:picoblades-instructions}.
+    \item Solder the PicoBlade connectors (J1, J2, J3, J4, J5, J6, J7 and J8), beginning with the external connectors and moving to the center of the board, as can be seen in .
     \item Solder the PC-104 connectors (J9 and J10), taking care to keep the alignment of all the pins with the surface of the board, as can be seen in \autoref{fig:pc104-alignment}.
-\end{enumerate}
-
-\section{Cables}
-
-For now, there is no assembled cables with 13 wires available to buy. So, a custom set of cables is required to connect the top and bottom boards.
-
-The instructions to assembly these custom cables are presented below:
-
-\begin{enumerate}
-    \item Remove all wiring housing from 15134-1401.
-    \item Mount the wires in 51021-1300.
-    \item As 15134-1401 is a cable assembly with 14 wires and 51021-1300 is a connector with 13 positions, one wire per cable will remain.
 \end{enumerate}

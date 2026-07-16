@@ -1,5 +1,6 @@
 SRC=main
-TARGET=slb-pc104adapt-doc-v2.1
+VERSION=v3.0
+TARGET=slb-pc104adapt-doc-$(VERSION)
 
 ifndef BUILD_DIR
 	BUILD_DIR=build
@@ -10,8 +11,6 @@ PDF_READER=evince
 all:
 	mkdir -p $(BUILD_DIR)
 	latexmk -pdf -jobname=$(BUILD_DIR)/$(TARGET) $(SRC).tex
-	rm -f $(TARGET).pdf
-	cp $(BUILD_DIR)/$(TARGET).pdf .
 
 index:
 	makeindex $(BUILD_DIR)/$(TARGET).nlo -s nomencl.ist -o $(BUILD_DIR)/$(TARGET).nls

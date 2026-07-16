@@ -22,7 +22,7 @@
     <a href="#license">License</a>
 </p>
 
-<p float="middle">
+<p float="center">
     <img align="top" src="img/pc104-adapter-top-overview.png" width="45%" />
     <img align="top" src="img/pc104-adapter-bottom-overview.png" width="45%" />
 </p>

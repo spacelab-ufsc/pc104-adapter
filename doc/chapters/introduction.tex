@@ -1,7 +1,7 @@
 %
 % introduction.tex
 %
-% Copyright (C) 2020 by SpaceLab.
+% Copyright The PC-104 Adapter Contributors.
 %
 % PC-104 Adapter Documentation
 %
@@ -15,20 +15,22 @@
 %
 % \author Gabriel Mariano Marcelino <gabriel.mm8@gmail.com>
 %
-% \institution Universidade Federal de Santa Catarina (UFSC)
-%
-% \version 2.0.0
+% \version 3.0.0
 %
 % \date 2020/06/21
 %
 
 \chapter{Introduction} \label{ch:introduction}
 
-The PC-104 Adapter boards are intended to be used in 2 or 3U CubeSat structures as an interconnection of two PC-104 bus segments. This interconnection is made with a set of PicoBlade \cite{picoblade} cables between the top and bottom boards. The set of two boards (top and bottom) of the adapter can be seen in \autoref{fig:pc104-adapter}.
+The PC-104 Adapter boards are intended to be used in 2 or 3U CubeSat structures as an interconnection of two PC-104 bus segments. This interconnection is made with a PC-104 connector stack between the top and bottom boards. The set of two boards (top and bottom) of the adapter can be seen in \autoref{fig:pc104-adapter}.
 
 \begin{figure}[!htb]
     \begin{center}
-        \includegraphics[width=0.7\textwidth]{figures/pc104-adapter}
+        \subfigure[Top board.\label{fig:top-board-overview}]
+        {\includegraphics[width=0.45\textwidth]{figures/pc104-adapter-top-overview.png}}
+        ~
+        \subfigure[Bottom board.\label{fig:bottom-board-overview}]
+        {\includegraphics[width=0.45\textwidth]{figures/pc104-adapter-bottom-overview.png}}
         \caption{PC-104 adapter boards.}
         \label{fig:pc104-adapter}
     \end{center}
