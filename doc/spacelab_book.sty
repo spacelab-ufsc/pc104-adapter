@@ -1,7 +1,7 @@
 %
 % spacelab_book.sty
 %
-% Copyright (C) 2020 by SpaceLab.
+% Copyright The PC-104 Adapter Contributors.
 %
 % PC-104 Adapter Documentation
 %
@@ -15,9 +15,7 @@
 %
 % \author Gabriel Mariano Marcelino <gabriel.mm8@gmail.com>
 %
-% \institution Universidade Federal de Santa Catarina (UFSC)
-%
-% \version 0.1.0
+% \version 3.0.0
 %
 % \date 2020/06/21
 %
@@ -92,3 +90,17 @@
 
 % Fill a cell of a table
 \newcommand{\fc}{\cellcolor{gray}}
+
+
+% Note block
+\newlength{\Lnote}
+\newcommand{\notte}[1]
+     {\addtolength{\leftmargini}{4em}
+        \settowidth{\Lnote}{\textbf{Note:~}}
+        \begin{quote}
+            \rule{\dimexpr\textwidth-2\leftmargini}{1pt}\\
+                        \mbox{}\hspace{-\Lnote}\textbf{Note:~}%
+                                            #1\\[-0.5ex]
+            \rule{\dimexpr\textwidth-2\leftmargini}{1pt}
+        \end{quote}
+        \addtolength{\leftmargini}{-4em}}

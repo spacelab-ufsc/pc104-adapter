@@ -22,15 +22,15 @@
 
 \chapter{Hardware Overview} \label{ch:hardware}
 
-The hardware project is composed by two boards: top and bottom. Both PCB\nomenclature{\textbf{PCB}}{\textit{Printed Circuit Board.}}s were designed using KiCad v7.0.9-1 \cite{kicad}. Both boards also have the same size, shape and number of layers (4), and are vertically symmetrical (same components, but in different sides of the board).
+Starting from hardware version 3.0, the project uses a single PCB design that can be assembled either as a top or bottom board. The final configuration depends exclusively on the type and orientation of the PC-104 connectors populated during assembly. This approach simplifies manufacturing, inventory management, and maintenance while preserving full mechanical and electrical compatibility. The PCB was designed using KiCad v7.0.9-1 \cite{kicad}.
 
 All pins of the PC-104 connector are routed between the two boards, this way, this adapter can be used in any configuration of the PC-104 pins.
 
-Both boards also have an inner cavity to allow vertically passing internal cables of the satellite. All the screw holes are connected to the copper planes of the board, but isolated from the PC-104 tracks (in other words, no signal is grounded to the chassi).
+The board also have an inner cavity to allow vertically passing internal cables of the satellite. All the screw holes are connected to the copper planes of the board, but isolated from the PC-104 tracks (in other words, no signal is grounded to the chassi).
 
 \section{Top Board}
 
-The top board is composed by a male and a female PC-104 connector. A 3D model of the top board can be seen in Figures \ref{fig:top-board-top} (top side) and \ref{fig:top-board-bottom} (bottom side).
+When assembled as a top board, the PCB is populated with one male and one female PC-104 connector according to the assembly configuration. A 3D model of this configuration is shown in Figures \ref{fig:top-board-top} and \ref{fig:top-board-bottom}.
 
 \begin{figure}[!htb]
     \begin{center}
@@ -50,7 +50,7 @@ The top board is composed by a male and a female PC-104 connector. A 3D model of
 
 \section{Bottom Board}
 
-The bottom board is composed by a male and a female PC-104 connector. A 3D model of the bottom board can be seen in Figures \ref{fig:bottom-board-top} (top side) and \ref{fig:bottom-board-bottom} (bottom side).
+When assembled as a bottom board, the same PCB is populated with the corresponding PC-104 connectors according to the bottom-board assembly configuration. A 3D model of this configuration is shown in Figures \ref{fig:bottom-board-top} and \ref{fig:bottom-board-bottom}.
 
 \begin{figure}[!htb]
     \begin{center}
@@ -86,12 +86,12 @@ The Bill of Materials (BOM\nomenclature{\textbf{BOM}}{\textit{Bill Of Materials.
 
 \begin{table}[!h]
     \centering
-    \begin{tabular}{cL{5.8cm}L{5.8cm}r}
+    \begin{tabular}{cllc}
         \toprule[1.5pt]
-        \textbf{Item}   & \textbf{Designator}            & \textbf{Partnumber} & \textbf{Quantity} \\
+        \textbf{Item} & \textbf{Designator} & \textbf{Partnumber} & \textbf{Quantity} \\
         \midrule
-        1               & J9, J10                        & SSW-126-01-G-D      & 2                 \\
-        2               & J1, J2, J3, J4, J5, J6, J7, J8 & 53398-1371          & 8                 \\
+        1 & J1, J2 & TSW-126-07-G-D & 2 \\
+        2 & J3, J4 & SSW-126-01-G-D & 2 \\
         \bottomrule[1.5pt]
     \end{tabular}
     \caption{Bill of Materials (BOM) of the top board.}
@@ -100,12 +100,12 @@ The Bill of Materials (BOM\nomenclature{\textbf{BOM}}{\textit{Bill Of Materials.
 
 \begin{table}[!h]
     \centering
-    \begin{tabular}{cL{5.8cm}L{5.8cm}r}
+    \begin{tabular}{cllc}
         \toprule[1.5pt]
-        \textbf{Item}   & \textbf{Designator}            & \textbf{Partnumber} & \textbf{Quantity} \\
+        \textbf{Item} & \textbf{Designator} & \textbf{Partnumber} & \textbf{Quantity} \\
         \midrule
-        1               & J9, J10                        & TSW-126-07-G-D      & 2                 \\
-        2               & J1, J2, J3, J4, J5, J6, J7, J8 & 53398-1371          & 8                 \\
+        1 & J1, J2 & SSW-126-01-G-D & 2 \\
+        2 & J3, J4 & TSW-126-07-G-D & 2 \\
         \bottomrule[1.5pt]
     \end{tabular}
     \caption{Bill of Materials (BOM) of the bottom board.}

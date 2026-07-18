@@ -22,7 +22,7 @@
 
 \chapter{Assembly Instructions} \label{ch:assembly}
 
-This chapter presents the assembly instructions of the two boards and the interconnection cables between the top and bottom boards.
+This chapter presents the assembly instructions for the version 3.0 PCB. Since the same PCB is used for both board positions, the assembly process is identical except for the selection and placement of the PC-104 connectors that define whether the board will be configured as a top or bottom board. The interconnection cables between the two assembled boards are also described.
 
 This project does not have sensible components (electrostatic or temperature), and no major care should be taken during the solder process. A recommended temperature of the soldering iron can be 350 $^{\circ}$C or lower.
 
@@ -54,20 +54,20 @@ There is no major concerns about the PCBs fabrication. The boards were not desig
     \label{tab:pcb-fabrication}
 \end{table}
 
-\section{Top Board}
+\section{Assembly}
 
-The instructions to assembly the top board are presented below:
-
-\begin{enumerate}
-    \item Solder the PicoBlade connectors (J1, J2, J3, J4, J5, J6, J7 and J8), beginning with the external connectors and moving to the center of the board, as can be seen in .
-    \item Solder the PC-104 connectors (J9 and J10), taking care to keep the alignment of all the pins with the surface of the board, as can be seen in \autoref{fig:pc104-alignment}.
-\end{enumerate}
-
-\section{Bottom Board}
-
-The same instructions apply to the bottom board:
+The following instructions describe how to assemble the PCB as a top board.
 
 \begin{enumerate}
-    \item Solder the PicoBlade connectors (J1, J2, J3, J4, J5, J6, J7 and J8), beginning with the external connectors and moving to the center of the board, as can be seen in .
-    \item Solder the PC-104 connectors (J9 and J10), taking care to keep the alignment of all the pins with the surface of the board, as can be seen in \autoref{fig:pc104-alignment}.
+    \item Solder the PC-104 connectors J1 and J2 (TSW-126-07-G-D) on the bottom side of the PCB.
+    \item Solder the PC-104 connectors J3 and J4 (SSW-126-01-G-D) on the top side of the PCB.
 \end{enumerate}
+
+The same assembly procedure applies when configuring the PCB as a bottom board. Only the placement and orientation of the PC-104 connectors differ according to the required configuration.
+
+\begin{enumerate}
+    \item Solder the PC-104 connectors J1 and J2 (SSW-126-01-G-D) on the top side of the PCB.
+    \item Solder the PC-104 connectors J3 and J4 (TSW-126-07-G-D) on the bottom side of the PCB.
+\end{enumerate}
+
+\notte{Use the ``This side up!'' marking on one side of the PCB to identify its top side! This orientation must be respected because the PCB is not symmetrical!}
